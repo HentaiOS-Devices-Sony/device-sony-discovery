@@ -12,11 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_h3213.mk \
-                     $(LOCAL_DIR)/aosp_h4213.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/hentai_discovery_RoW.mk \
+    $(LOCAL_DIR)/hentai_discovery_DSDS.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_h3213-eng \
-    aosp_h3213-userdebug \
-    aosp_h4213-eng \
-    aosp_h4213-userdebug
+    hentai_discovery_RoW-eng \
+    hentai_discovery_RoW-userdebug \
+    hentai_discovery_RoW-user \
+    hentai_discovery_DSDS-eng \
+    hentai_discovery_DSDS-userdebug \
+    hentai_discovery_DSDS-user
