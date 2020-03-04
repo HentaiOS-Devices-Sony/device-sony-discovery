@@ -14,12 +14,20 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hentai_discovery_RoW.mk \
-    $(LOCAL_DIR)/hentai_discovery_DSDS.mk
-
+    $(LOCAL_DIR)/hentai_discovery_DSDS.mk \
+    $(LOCAL_DIR)/hentai_discovery_RoW_Go.mk \
+    $(LOCAL_DIR)/hentai_discovery_DSDS_Go.mk \
+    
 COMMON_LUNCH_CHOICES += \
     hentai_discovery_RoW-eng \
     hentai_discovery_RoW-userdebug \
     hentai_discovery_RoW-user \
     hentai_discovery_DSDS-eng \
     hentai_discovery_DSDS-userdebug \
-    hentai_discovery_DSDS-user
+    hentai_discovery_DSDS-user \
+    hentai_discovery_RoW_Go-eng \
+    hentai_discovery_RoW_Go-userdebug \
+    hentai_discovery_RoW_Go-user \
+    hentai_discovery_DSDS_Go-eng \
+    hentai_discovery_DSDS_Go-userdebug \
+    hentai_discovery_DSDS_Go-user \
