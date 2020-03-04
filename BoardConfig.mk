@@ -19,6 +19,10 @@ ifneq (,$(filter %hentai_discovery_RoW,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := H3213
 else ifneq (,$(filter %hentai_discovery_DSDS,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := H4213
+else ifneq (,$(filter %hentai_discovery_RoW_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := H3213
+else ifneq (,$(filter %hentai_discovery_DSDS_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := H4213
 else
 TARGET_BOOTLOADER_BOARD_NAME := H3213
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
